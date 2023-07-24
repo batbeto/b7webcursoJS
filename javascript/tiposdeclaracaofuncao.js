@@ -1,0 +1,22 @@
+function soma(x,y) {
+  return x+y;
+}
+
+
+const sub = function(x,y) {
+  return x-y;
+}
+
+const mult = function mult(x,y) {
+  return x*y;
+}
+
+const div = (x,y) => {
+  return x/y;
+}
+
+
+console.log(soma(3,4));
+console.log(mult(3,4));
+console.log(sub(3,4));
+console.log(div(3,4));

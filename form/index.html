@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">
+        <div class="leftside">
+            <img src="images/financial_data.png" alt="">
+        </div>
+        <div class="rightside">
+            <h1>Crie uma conta</h1>
+            <form method="POST" class="b7validator">
+                <label for="">Seu nome </br>
+                    <input type="text" name="name" data-rules="required|min=2">
+                </label>
+                <label for="">Seu email</br>
+                    <input type="text" name="email" data-rules="required|email">
+                </label>
+                <label for="">Sua senha</br>
+                    <input type="password" name="password" data-rules="required|min=4">
+                </label>
+                <label for="">
+                    <input type="submit" value="Cadastrar">
+                </label>
+            </form>
+            <div>
+                Já tem uma conta? <a href="">Clique aqui</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
